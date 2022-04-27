@@ -1,24 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+ 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="web">
+      <div className="banner">
+        <h1>Fall <span>for</span><br/> Fashion</h1>
+      </div>
+      <div className="main">
+        <h1>Our Products</h1>
+        <div className="card_wrapper">
+          <div className="card">
+              <div className="card_img"></div>
+              <div className="card_content">Women's Clothing</div>
+          </div>
+          <div className="card">
+              <div className="card_img"></div>
+              <div className="card_content">Men's Clothing</div>
+          </div>
+          <div className="card">
+              <div className="card_img"></div>
+              <div className="card_content">Cosmetics</div>
+          </div>
+          <div className="card">
+              <div className="card_img"></div>
+              <div className="card_content">Home Decor</div>
+          </div>
+        </div>
+      </div>
+      <div className="footer">
+         <h1><i class="fab fa-instagram"></i></h1>
+         <h1><i class="fab fa-facebook-square"></i></h1>
+         <h1><i class="fab fa-twitter"></i></h1>
+         <h1><i class="fab fa-linkedin"></i></h1>
+      </div>
     </div>
   );
 }
